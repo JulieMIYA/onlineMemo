@@ -1,0 +1,84 @@
+.navbar-inner {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkitborder-radius: 0px;
+}
+.title{
+    text-align:center;
+    padding-top: 20px;
+    font-family: "Arial";
+    font-size: 30px;
+	color: black
+}
+
+#content{
+	width: 600px;
+	margin: auto;
+}
+
+#form{
+	padding: 10px;
+	background: #f7f7f7;
+	border 1px solid #ccc;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	webkit-border-radius: 4px;
+}
+
+div.register_form{
+	display: none;
+}
+
+#td_container{
+	width: 1000px;
+	margin: auto;
+	padding-top: 40px;
+}
+
+#sidebar{
+	float:left;
+	width:18%;
+	background: #f7f7f7;
+	padding-left: 0px;
+}
+#sidebar li a{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#mainContent{
+	float:right;
+	width:82%;
+}
+#mainContent #head{
+	background: #f7f7f7;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	padding:5px;
+	min-height: 50px;
+	line-height: 40px;
+}
+#mainContent #head h2{
+	float:left;
+}
+#mainContent #head #add_more{
+	float:right;
+}
+#mainBody{
+	clear:both;
+}
+#mainWrapper #title{
+	float:center;
+}
+
+.form_field{
+	width: 29%;
+}
+#slider-range-max{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#amount{
+	margin-bottom: 10px;
+}
