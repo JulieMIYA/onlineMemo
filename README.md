@@ -14,7 +14,7 @@ name of another table:todo.
         username, title, due_date, create_date, label:varchar ;
         description:text ;
         progress: int.
---------------------------------------------------------------------------
+
   users(username,email,password,reg_time,reg_date,user_status,ip_address),
       type of the field:
         username:PK VARCHAR(150);
