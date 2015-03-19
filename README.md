@@ -4,9 +4,10 @@ This is a online memo book.
 Users can register, login, create events in the memo book, edit or delete any events any users like.
 -----------------------------------------------------------------------------------------------------
 1. Firstly, the MySQL DB need to be created.
-Name of the database:todo, (for the lists of events)
-name of one table:users,   (for the users)
-name of another table:todo.
+Name of the database:todo. 
+
+name of one table:users,   (for the users);
+name of another table:todo (for the lists of events).
 2. The schema for two tables :
   todo(id, username, title, description, due_date, create_date, label, progress),
       type of the field:
