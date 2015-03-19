@@ -5,7 +5,6 @@ Users can register, login, create events in the memo book, edit or delete any ev
 -----------------------------------------------------------------------------------------------------
 1. Firstly, the MySQL DB need to be created.
 Name of the database:todo. 
-
 name of one table:users,   (for the users);
 name of another table:todo (for the lists of events).
 2. The schema for two tables :
